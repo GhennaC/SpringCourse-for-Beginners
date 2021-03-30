@@ -13,7 +13,7 @@ public class DemoDelete {
 
         // create session factory
         SessionFactory sessionFactory = new Configuration()
-                                            .configure("hibernate1.cfg.xml")
+                                            .configure("hibernate.cfg.xml")
                                             .addAnnotatedClass(Instructor.class)
                                             .addAnnotatedClass(InstructorDetail.class)
                                             .buildSessionFactory();

@@ -14,7 +14,7 @@ public class DemoDeleteCourse {
 
         // create session factory
         SessionFactory sessionFactory = new Configuration()
-                                            .configure("hibernate1.cfg.xml")
+                                            .configure("hibernate.cfg.xml")
                                             .addAnnotatedClass(Instructor.class)
                                             .addAnnotatedClass(InstructorDetail.class)
                                             .addAnnotatedClass(Course.class)
